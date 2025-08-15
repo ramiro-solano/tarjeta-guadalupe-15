@@ -19,7 +19,7 @@ export class App {
 		partyDateTime: '8 de Octubre a las 22:00hs hasta 6:00hs',
 		partyLocation: 'Salón El lapacho eventos B el paraíso. Delfín Gallo - Tucumán',
 		dressCode: 'Elegante ( Reservado color Celeste y azul noche)',
-		confirmationDeadline: '30/07/2025',
+		confirmationDeadline: '30/9/2025',
 		hastag: '#mis15guadalupe',
 		giftsData: {
 			accountHolderName: 'Villalba Rosario',
@@ -34,7 +34,7 @@ export class App {
 	}
 
 	//Countdown
-	private endDate: Date = new Date(2025, 9, 8, 22, 0, 0);
+	private endDate: Date = new Date(2025, 9, 18, 22, 0, 0);
 	remainingDays = signal(0);
 	remainingHours = signal (0);
 	remainingMinutes = signal (0);

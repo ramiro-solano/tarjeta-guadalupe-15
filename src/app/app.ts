@@ -16,7 +16,7 @@ export class App {
 		title: '¡Mis 15 años!',
 		phrase: 'Hay momentos inolvidables que se atesoran en el corazón para siempre, por esa razón, quiero que compartas conmigo este día tan especial.',
 		songUrl: 'assets/song/indila-love-story.mp3',
-		partyDateTime: '8 de Octubre a las 22:00hs hasta 6:00hs',
+		partyDateTime: '18 de Octubre a las 22:00hs hasta 6:00hs',
 		partyLocation: 'Salón El lapacho eventos B el paraíso. Delfín Gallo - Tucumán',
 		dressCode: 'Elegante ( Reservado color Celeste y azul noche)',
 		confirmationDeadline: '30/9/2025',

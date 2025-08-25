@@ -7,7 +7,8 @@ export interface CardData {
 	partyLocation: string;
 	dressCode: string;
 	confirmationDeadline: string;
-	hastag: string;
+	userInstagram: string;
+	hashtag: string;
 	giftsData: {
 		accountHolderName: string;
 		cbuOrCvu: string;
@@ -17,5 +18,6 @@ export interface CardData {
 		googleMaps: string;
 		saveDate: string;
 		whatsapp: string;
+		instagram: string;
 	}
 }

@@ -145,7 +145,7 @@
     </button>
 </section>
 
-<section class="relative isolate max-w-screen-md w-full mx-auto flex flex-col justify-center items-center space-y-10 py-28 pb-40 px-6">
+<section class="relative isolate max-w-screen-md w-full mx-auto flex flex-col justify-center items-center space-y-10 py-28 pb-40 px-4">
     <div class="absolute inset-x-0 bottom-0 -z-10">
         <img src="/assets/svg/floreal-3.svg" alt="floreal-3" class="object-cover h-full w-full opacity-40">
     </div>
@@ -158,9 +158,13 @@
 
     <div class="flex flex-col justify-center items-center space-y-6">
         <p class="text-center">
-            Etiquetáme en Instagram con mi #hashtag en tus fotos y videos.
+            Etiquetame en Instagram
+            <a href="{{data.links.instagram}}" target="_blank" class="text-sky-500 font-semibold hover:underline">
+                {{data.userInstagram}}
+            </a>
+             y usá mi hashtag en tus fotos y videos 🎉
         </p>
-        <span class="font-bold text-xl">{{data.hastag}}</span>
+        <span class="font-bold text-xl">{{data.hashtag}}</span>
     </div>
 </section>
     
@@ -176,7 +180,7 @@
     </h2>
 
     <p class="text-center">
-        Tu presencia será el mejor regalo, pero si deseas sorprenderme con un detalle aqui te dejo los datos.
+        Tu presencia será mi mejor regalo en esta noche tan especial, pero si deseas tener un gesto adicional, la lluvia de sobres será muy apreciada.
     </p>
 
     <!-- Modal trigger -->

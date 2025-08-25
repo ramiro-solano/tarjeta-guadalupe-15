@@ -18,9 +18,10 @@ export class App {
 		songUrl: 'assets/song/indila-love-story.mp3',
 		partyDateTime: '18 de Octubre a las 22:00hs hasta 6:00hs',
 		partyLocation: 'Salón El lapacho eventos B el paraíso. Delfín Gallo - Tucumán',
-		dressCode: 'Elegante ( Reservado color Celeste y azul noche)',
+		dressCode: 'Elegante Sport ( Reservado color Celeste y azul noche)',
 		confirmationDeadline: '30/9/2025',
-		hastag: '#mis15guadalupe',
+		userInstagram: '@r_villalba_guada',
+		hashtag: '#mis15guadalupe',
 		giftsData: {
 			accountHolderName: 'Villalba Rosario',
 			cbuOrCvu: '0000076500000030263961',
@@ -29,7 +30,8 @@ export class App {
 		links: {
 			googleMaps: 'https://maps.app.goo.gl/3r2Hg4Pm1HdHzpAJA',
 			saveDate: 'https://calendar.app.google/TxBJYozGq47UJQXD9',
-			whatsapp: 'https://wa.me/+5493812031335'
+			whatsapp: 'https://wa.me/+5493812031335',
+			instagram: 'https://www.instagram.com/r_villalba_guada/'
 		}
 	}
 
